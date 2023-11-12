@@ -15,10 +15,10 @@ namespace MusicPlayerApi.Core.Entities
         public string Email { get; set; }
         public string Password { get; set; }
         public string PhoneNumber { get; set; }
-        public DateOnly BirthDate { get; set; }
-        public DateTime CreationTime { get; set; }
-        public DateTime LastModificationTime { get; set; }
-        public DateTime DeletionTime { get; set; }
+        public DateOnly? BirthDate { get; set; }
+        public DateTime? CreationTime { get; set; }
+        public DateTime? LastModificationTime { get; set; }
+        public DateTime? DeletionTime { get; set; }
         public bool IsDeleted { get; set; }
     }
 }
