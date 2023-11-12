@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Core", "Musi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Shared", "MusicPlayerApi.Shared\MusicPlayerApi.Shared.csproj", "{1A276880-1093-4039-95B0-59F1009F7693}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.DbContexts", "MusicPlayerApi.DbContext\MusicPlayerApi.DbContexts.csproj", "{9EE6FAA4-9B94-4761-A370-3871A8775537}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1A276880-1093-4039-95B0-59F1009F7693}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A276880-1093-4039-95B0-59F1009F7693}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A276880-1093-4039-95B0-59F1009F7693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE6FAA4-9B94-4761-A370-3871A8775537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE6FAA4-9B94-4761-A370-3871A8775537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE6FAA4-9B94-4761-A370-3871A8775537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE6FAA4-9B94-4761-A370-3871A8775537}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
