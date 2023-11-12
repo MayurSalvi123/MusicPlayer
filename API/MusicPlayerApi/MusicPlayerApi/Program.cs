@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using MusicPlayerApi.DbContexts.MusicPlayerDbContexts;
+
 namespace MusicPlayerApi
 {
     public class Program
@@ -12,6 +15,8 @@ namespace MusicPlayerApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<MusicPlayerDbContext>();
 
             var app = builder.Build();
 

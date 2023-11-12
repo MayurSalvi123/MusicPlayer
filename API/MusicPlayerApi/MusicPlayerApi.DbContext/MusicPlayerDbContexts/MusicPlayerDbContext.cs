@@ -6,17 +6,11 @@ namespace MusicPlayerApi.DbContexts.MusicPlayerDbContexts
 {
     public class MusicPlayerDbContext : DbContext
     {
-        private readonly IConfiguration _configuration;
-
-        public MusicPlayerDbContext(IConfiguration configuration)
-        {
-            _configuration = configuration;
-        }
         public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(_configuration.GetConnectionString("MusicPlayerConnectionString"));
+            optionsBuilder.UseNpgsql("Server=localhost;Port=5432;User Id=postgres;Password=root;Database=musicplayer;");
         }
     }
 }

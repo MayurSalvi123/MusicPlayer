@@ -17,4 +17,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MusicPlayerApi.DbContext\MusicPlayerApi.DbContexts.csproj" />
+  </ItemGroup>
+
 </Project>
