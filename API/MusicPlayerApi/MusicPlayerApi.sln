@@ -5,11 +5,27 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayerApi", "MusicPlayerApi\MusicPlayerApi.csproj", "{9DF7F5FF-0CF3-4EEB-8BD2-381ABE215469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Core", "MusicPlayerApi.Core\MusicPlayerApi.Core.csproj", "{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayerApi.Core", "MusicPlayerApi.Core\MusicPlayerApi.Core.csproj", "{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Shared", "MusicPlayerApi.Shared\MusicPlayerApi.Shared.csproj", "{1A276880-1093-4039-95B0-59F1009F7693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayerApi.Shared", "MusicPlayerApi.Shared\MusicPlayerApi.Shared.csproj", "{1A276880-1093-4039-95B0-59F1009F7693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.DbContexts", "MusicPlayerApi.DbContext\MusicPlayerApi.DbContexts.csproj", "{9EE6FAA4-9B94-4761-A370-3871A8775537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayerApi.DbContexts", "MusicPlayerApi.DbContext\MusicPlayerApi.DbContexts.csproj", "{9EE6FAA4-9B94-4761-A370-3871A8775537}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebHost", "WebHost", "{6489B30B-210C-47FE-B829-BA0A1D31EB10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5322A3FE-B5F2-46A9-93D4-42812944A7F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBContexts", "DBContexts", "{75D10E1A-2FA4-46FC-8988-97F1E15C036F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7338442B-A842-4DDB-9587-A4AED2A4E8BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{1D55B2B0-199C-44FA-91FD-F7FB8C2CEF1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{8D4840C8-9511-4048-8F3A-48B494BFCCDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{491BCF43-CF7C-4E46-94B1-E6D80521F3F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer.Repositories", "MusicPlayer.Repositories\MusicPlayer.Repositories.csproj", "{C913928B-4B98-4CD5-A83E-6FE231067D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +49,20 @@ Global
 		{9EE6FAA4-9B94-4761-A370-3871A8775537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EE6FAA4-9B94-4761-A370-3871A8775537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EE6FAA4-9B94-4761-A370-3871A8775537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C913928B-4B98-4CD5-A83E-6FE231067D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C913928B-4B98-4CD5-A83E-6FE231067D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C913928B-4B98-4CD5-A83E-6FE231067D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C913928B-4B98-4CD5-A83E-6FE231067D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DF7F5FF-0CF3-4EEB-8BD2-381ABE215469} = {6489B30B-210C-47FE-B829-BA0A1D31EB10}
+		{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3} = {5322A3FE-B5F2-46A9-93D4-42812944A7F9}
+		{1A276880-1093-4039-95B0-59F1009F7693} = {7338442B-A842-4DDB-9587-A4AED2A4E8BF}
+		{9EE6FAA4-9B94-4761-A370-3871A8775537} = {75D10E1A-2FA4-46FC-8988-97F1E15C036F}
+		{C913928B-4B98-4CD5-A83E-6FE231067D9B} = {1D55B2B0-199C-44FA-91FD-F7FB8C2CEF1D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2E69CBC-4ABF-4FF1-9891-16FF2C6B421D}
