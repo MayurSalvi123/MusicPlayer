@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi", "MusicPlayerApi\MusicPlayerApi.csproj", "{9DF7F5FF-0CF3-4EEB-8BD2-381ABE215469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayerApi", "MusicPlayerApi\MusicPlayerApi.csproj", "{9DF7F5FF-0CF3-4EEB-8BD2-381ABE215469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Core", "MusicPlayerApi.Core\MusicPlayerApi.Core.csproj", "{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Shared", "MusicPlayerApi.Shared\MusicPlayerApi.Shared.csproj", "{1A276880-1093-4039-95B0-59F1009F7693}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9DF7F5FF-0CF3-4EEB-8BD2-381ABE215469}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DF7F5FF-0CF3-4EEB-8BD2-381ABE215469}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DF7F5FF-0CF3-4EEB-8BD2-381ABE215469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A0DBC9-42ED-4A36-A8D2-D298FC0A78C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A276880-1093-4039-95B0-59F1009F7693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A276880-1093-4039-95B0-59F1009F7693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A276880-1093-4039-95B0-59F1009F7693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A276880-1093-4039-95B0-59F1009F7693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
