@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayer.Repositories", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer.Managers", "MusicPlayer.Managers\MusicPlayer.Managers.csproj", "{F8D69464-1927-4326-93B4-0494181887F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Controllers", "MusicPlayerApi.Controllers\MusicPlayerApi.Controllers.csproj", "{8A8265EF-66AA-42C6-A57A-3AB712F341F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{F8D69464-1927-4326-93B4-0494181887F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D69464-1927-4326-93B4-0494181887F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D69464-1927-4326-93B4-0494181887F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8265EF-66AA-42C6-A57A-3AB712F341F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8265EF-66AA-42C6-A57A-3AB712F341F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8265EF-66AA-42C6-A57A-3AB712F341F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8265EF-66AA-42C6-A57A-3AB712F341F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{9EE6FAA4-9B94-4761-A370-3871A8775537} = {75D10E1A-2FA4-46FC-8988-97F1E15C036F}
 		{C913928B-4B98-4CD5-A83E-6FE231067D9B} = {1D55B2B0-199C-44FA-91FD-F7FB8C2CEF1D}
 		{F8D69464-1927-4326-93B4-0494181887F7} = {8D4840C8-9511-4048-8F3A-48B494BFCCDC}
+		{8A8265EF-66AA-42C6-A57A-3AB712F341F1} = {491BCF43-CF7C-4E46-94B1-E6D80521F3F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2E69CBC-4ABF-4FF1-9891-16FF2C6B421D}
