@@ -25,7 +25,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{8D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{491BCF43-CF7C-4E46-94B1-E6D80521F3F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer.Repositories", "MusicPlayer.Repositories\MusicPlayer.Repositories.csproj", "{C913928B-4B98-4CD5-A83E-6FE231067D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayer.Repositories", "MusicPlayer.Repositories\MusicPlayer.Repositories.csproj", "{C913928B-4B98-4CD5-A83E-6FE231067D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer.Managers", "MusicPlayer.Managers\MusicPlayer.Managers.csproj", "{F8D69464-1927-4326-93B4-0494181887F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{C913928B-4B98-4CD5-A83E-6FE231067D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C913928B-4B98-4CD5-A83E-6FE231067D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C913928B-4B98-4CD5-A83E-6FE231067D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D69464-1927-4326-93B4-0494181887F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D69464-1927-4326-93B4-0494181887F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D69464-1927-4326-93B4-0494181887F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D69464-1927-4326-93B4-0494181887F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{1A276880-1093-4039-95B0-59F1009F7693} = {7338442B-A842-4DDB-9587-A4AED2A4E8BF}
 		{9EE6FAA4-9B94-4761-A370-3871A8775537} = {75D10E1A-2FA4-46FC-8988-97F1E15C036F}
 		{C913928B-4B98-4CD5-A83E-6FE231067D9B} = {1D55B2B0-199C-44FA-91FD-F7FB8C2CEF1D}
+		{F8D69464-1927-4326-93B4-0494181887F7} = {8D4840C8-9511-4048-8F3A-48B494BFCCDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2E69CBC-4ABF-4FF1-9891-16FF2C6B421D}

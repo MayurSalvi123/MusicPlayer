@@ -15,10 +15,11 @@ namespace MusicPlayer.Repositories.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task AddUser(User user)
+        public async Task<User> AddUser(User user)
         {
-            await _dbContext.Users.AddAsync(user).ConfigureAwait(false);
+            var createdUser = await _dbContext.Users.AddAsync(user).ConfigureAwait(false);
             await _dbContext.SaveChangesAsync().ConfigureAwait(false);
+            return createdUser.Entity;
         }
 
         public async Task DeleteUser(Guid Id)
@@ -27,6 +28,7 @@ namespace MusicPlayer.Repositories.Repositories
             if(user != null)
             {
                 _dbContext.Users.Remove(user);
+                _dbContext.SaveChanges();
             }
             else
             {
@@ -39,9 +41,11 @@ namespace MusicPlayer.Repositories.Repositories
             return _dbContext.Users;
         }
 
-        public void UpdateUser(User user)
+        public User UpdateUser(User user)
         {
-            _dbContext.Users.Update(user);
+            var updatedUser = _dbContext.Users.Update(user);
+            _dbContext.SaveChanges();
+            return updatedUser.Entity;
         }
 
         protected virtual void Dispose(bool disposing)
@@ -60,6 +64,11 @@ namespace MusicPlayer.Repositories.Repositories
         {
             Dispose(true);
             GC.SuppressFinalize(this);
+        }
+
+        public async Task<User> GetUserById(Guid id)
+        {
+            return await _dbContext.Users.FindAsync(id).ConfigureAwait(false);
         }
     }
 }

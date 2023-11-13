@@ -4,9 +4,10 @@ namespace MusicPlayer.Repositories.Interfaces
 {
     public interface IUserRepository : IDisposable
     {
-        Task AddUser(User user);
+        Task<User> AddUser(User user);
         Task DeleteUser(Guid Id);
+        Task<User> GetUserById(Guid id);
         IQueryable<User> GetUsers();
-        void UpdateUser(User user);
+        User UpdateUser(User user);
     }
 }

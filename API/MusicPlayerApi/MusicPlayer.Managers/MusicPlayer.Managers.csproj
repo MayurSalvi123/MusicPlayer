@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MusicPlayerApi.DbContext\MusicPlayerApi.DbContexts.csproj" />
+    <ProjectReference Include="..\MusicPlayer.Repositories\MusicPlayer.Repositories.csproj" />
   </ItemGroup>
 
 </Project>
