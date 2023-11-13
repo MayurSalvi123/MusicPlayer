@@ -15,15 +15,33 @@ namespace MusicPlayer.Repositories.Repositories
             _dbContext = dbContext;
         }
 
+        public async Task AddUser(User user)
+        {
+            await _dbContext.Users.AddAsync(user).ConfigureAwait(false);
+            await _dbContext.SaveChangesAsync().ConfigureAwait(false);
+        }
+
+        public async Task DeleteUser(Guid Id)
+        {
+            var user = await _dbContext.Users.FindAsync(Id).ConfigureAwait(false);
+            if(user != null)
+            {
+                _dbContext.Users.Remove(user);
+            }
+            else
+            {
+                throw new Exception("User Does Not Exist");
+            }
+        }
+
         public IQueryable<User> GetUsers()
         {
             return _dbContext.Users;
         }
 
-        public async Task AddUser(User user)
+        public void UpdateUser(User user)
         {
-            await _dbContext.Users.AddAsync(user).ConfigureAwait(false);
-            await _dbContext.SaveChangesAsync().ConfigureAwait(false);
+            _dbContext.Users.Update(user);
         }
 
         protected virtual void Dispose(bool disposing)
