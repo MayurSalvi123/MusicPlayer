@@ -1,4 +1,4 @@
-﻿namespace MusicPlayerApi.Core.Dtos
+﻿namespace MusicPlayerApi.Core.Dtos.User
 {
     public class FetchUserDto
     {
