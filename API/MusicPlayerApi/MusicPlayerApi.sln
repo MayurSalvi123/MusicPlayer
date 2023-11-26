@@ -27,9 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayer.Repositories", "MusicPlayer.Repositories\MusicPlayer.Repositories.csproj", "{C913928B-4B98-4CD5-A83E-6FE231067D9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer.Managers", "MusicPlayer.Managers\MusicPlayer.Managers.csproj", "{F8D69464-1927-4326-93B4-0494181887F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayer.Managers", "MusicPlayer.Managers\MusicPlayer.Managers.csproj", "{F8D69464-1927-4326-93B4-0494181887F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayerApi.Controllers", "MusicPlayerApi.Controllers\MusicPlayerApi.Controllers.csproj", "{8A8265EF-66AA-42C6-A57A-3AB712F341F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicPlayerApi.Controllers", "MusicPlayerApi.Controllers\MusicPlayerApi.Controllers.csproj", "{8A8265EF-66AA-42C6-A57A-3AB712F341F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
