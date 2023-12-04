@@ -27,6 +27,8 @@ namespace MusicPlayerApi
                 app.UseSwaggerUI();
             }
 
+            app.MapSwagger();
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
